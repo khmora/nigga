@@ -78,7 +78,7 @@ void C_ConfigManager::setup( ) {
 
 		setup_item( &g_cfg.ragebot.baim_settings[ i ], {
 			{ false, "in air" },
-			{ false, "not resolved" }
+			{ false, "not sresolved" }
 		}, start + ".baim" );
 
 		setup_item( &g_cfg.ragebot.quickstop[ i ], false, start + ".quickstop" );
