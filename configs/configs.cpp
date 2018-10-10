@@ -74,7 +74,7 @@ void C_ConfigManager::setup( ) {
 		setup_item( &g_cfg.ragebot.pointscale[ i ], 1.0f, start + ".pointscale" );
 
 		setup_item( &g_cfg.ragebot.hitchance[ i ], false, start + ".hitchance" );
-		setup_item( &g_cfg.ragebot.hitchance_amount[ i ], 0, start + ".hitchance_amount" );
+		setup_item( &g_cfg.ragebot.hitchance_amount[ i ], 0, start + "hitchance_amount" );
 
 		setup_item( &g_cfg.ragebot.baim_settings[ i ], {
 			{ false, "in air" },
